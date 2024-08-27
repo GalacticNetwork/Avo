@@ -93,16 +93,16 @@ var thestyle = document.createElement("style")
 thestyle.id = "avostyle"
 
 // Fonts
-thestyle.innerText = "@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');"
+thestyle.innerText = "@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');"
 
 // Roboto
-thestyle.innerText += ".avodevtools {font-family: Roboto;}"
+thestyle.innerText += ".avodevtools {font-family: 'Be Vietnam Pro', sans-serif;}"
 
 // .devtools
 thestyle.innerText += ".avodevtools {position: fixed; right: 8px; top: 8px; bottom: 8px; width: 500px; background: black; color: white; border-radius: 2.5px; text-align: center; z-index: 9999999999;}"
 
 // .elements
-thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
+thestyle.innerText += ".avoelements {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #8B8000; margin: 0; margin-top: 10px; border-right: none; border-left: none;}"
 
 thestyle.innerText += ".avoelements:hover {background: #1c1c1c;}"
 
@@ -110,29 +110,29 @@ thestyle.innerText += ".avoelements:hover {background: #1c1c1c;}"
 thestyle.innerText += ".avothecode {border: 1px solid white; margin: 5px; margin-top: 10px; border-radius: 2.5px; padding: 5px; overflow: scroll; text-align: left; height: 90%;}"
 
 // .edit
-thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-radius: 2.5px 0 0 2.5px; margin: 0; margin-top: 10px; margin-left: 5px;}"
+thestyle.innerText += ".avoedit {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #8B8000; border-radius: 2.5px 0 0 2.5px; margin: 0; margin-top: 10px; margin-left: 5px;}"
 
 thestyle.innerText += ".avoedit:hover {background: #1c1c1c;}"
 
 // .xray
-thestyle.innerText += ".avoxray {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; margin: 0; margin-top: 10px; border-left: none;}"
+thestyle.innerText += ".avoxray {cursor: pointer; outline: none; background: transparent; color: #C2B280; font-size: 20px; border: 2px solid #8B8000; margin: 0; margin-top: 10px; border-left: none;}"
 
 thestyle.innerText += ".avoxray:hover {background: #1c1c1c;}"
 
 // .console
-thestyle.innerText += ".avoconsole {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-radius: 0 2.5px 2.5px 0; margin: 0; margin-top: 10px;}"
+thestyle.innerText += ".avoconsole {cursor: pointer; outline: none; background: transparent; color: #C2B280; font-size: 20px; border: 2px solid #8B8000; border-radius: 0 2.5px 2.5px 0; margin: 0; margin-top: 10px;}"
 
 thestyle.innerText += ".avoconsole:hover {background: #1c1c1c;}"
 
 // .closebtn
-thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid blue; border-radius: 2.5px; margin-right: 10px; margin-top: 10px; float: right;}"
+thestyle.innerText += ".avoclosebtn {cursor: pointer; outline: none; background: transparent; color: #aaa; font-size: 20px; border: 2px solid #8B8000; border-radius: 2.5px; margin-right: 10px; margin-top: 10px; float: right;}"
 
 thestyle.innerText += ".avoclosebtn:hover {background: #1c1c1c;}"
 
 // .active
-thestyle.innerText += ".avoactive {background: blue; color: white;}"
+thestyle.innerText += ".avoactive {background: #E4D00A; color: white;}"
 
-thestyle.innerText += ".avoactive:hover {background: blue;}"
+thestyle.innerText += ".avoactive:hover {background: yellow;}"
 
 // #loginput
 thestyle.innerText += "#avologinput {outline: none; border: none; width: 100%; font-size: 15px;background:black;color:white;}"
@@ -147,7 +147,7 @@ thestyle.innerText += ".avolog {padding: 2.5px; border-radius: 2.5px; font-size:
 thestyle.innerText += "#avologs {max-height: 89%; overflow: scroll;display: none;}"
 
 // .error
-thestyle.innerText += ".avoerror {color: red; background: lightpink; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
+thestyle.innerText += ".avoerror {color: red; background: red; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
 
 // .warn
 thestyle.innerText += ".avowarn {color: black; background: yellow; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
