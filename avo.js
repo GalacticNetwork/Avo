@@ -147,7 +147,7 @@ thestyle.innerText += ".avolog {padding: 2.5px; border-radius: 2.5px; font-size:
 thestyle.innerText += "#avologs {max-height: 89%; overflow: scroll;display: none;}"
 
 // .error
-thestyle.innerText += ".avoerror {color: red; background: red; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
+thestyle.innerText += ".avoerror {color: white; background: red; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
 
 // .warn
 thestyle.innerText += ".avowarn {color: black; background: yellow; padding: 2.5px; border-radius: 2.5px; font-size: 15px;margin: 10px; text-align: left;}"
